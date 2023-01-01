@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Chat App</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>chat_app</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Access is needed to send media messages</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Calender is required because internal plugin uses this</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This lets you to take photos, make video calls and record videos</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Upload your contacts to AlwaysChat server to help you quickly get in touch with your friends and helps us provide a better experience.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>Allow access to files to share share</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>Allow access to photo library to share photos</string>
+	<key>NSFileProviderDomainUsageDescription</key>
+	<string>for send to other user if user wants</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Location service is requrided when you want to send your location with other user</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Allow access to share your location</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your location is required for sharing current location message</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Allow access to microphone to send voice notes, make audio calls and videos with sound</string>
+	<key>NSMotionUsageDescription</key>
+	<string>This app needs to be able to access your motion use</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Allow access to photo library to share photos and videos from your library and save the ones you captures</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow access to photo library to share photos and videos from your library and save the ones you captures</string>
+	 
+</dict>
+</plist>

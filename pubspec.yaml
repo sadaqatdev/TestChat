@@ -1,0 +1,40 @@
+name: chat_app
+description: A new Flutter project.
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  better_video_player: ^1.2.8
+  cached_network_image: ^3.2.3
+  open_file_safe: ^3.2.3
+  flutter_audio_recorder2: ^0.0.2
+  permission_handler: ^10.2.0
+  file_picker: 4.2.2
+  image_picker: ^0.8.6
+  assets_audio_player: ^3.0.6
+  video_thumbnail: ^0.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  # generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
