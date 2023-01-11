@@ -25,7 +25,8 @@ jobs:
       - name: Firebase App Distribution
         uses: wzieba/Firebase-Distribution-Github-Action@v1.4.0
         with:
-         appId: ${{secrets.FIREBASE_APP_ID}}
+         appId: "1:1070871579517:android:7adcd47b16364f74e59a14"
          token: ${{secrets.FIREBASE_TOKEN}}
          groups: testers
          file: app/build/outputs/apk/release/app-release-unsigned.apk
+         debug: true
