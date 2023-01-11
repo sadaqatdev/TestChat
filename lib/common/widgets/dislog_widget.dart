@@ -1,7 +1,7 @@
 import 'package:chat_app/utils/route_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-
+  
 Future showFileOPtion(Function(ImageSource)? function) async {
   await showDialog(
       context: GlobalContext.context,
