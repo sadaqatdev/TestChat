@@ -28,5 +28,5 @@ jobs:
          appId: "1:1070871579517:android:7adcd47b16364f74e59a14"
          token: ${{secrets.FIREBASE_TOKEN}}
          groups: testers
-         file: app/build/outputs/apk/release/app-release-unsigned.apk
+         file: build/app/outputs/apk/release/app-release.apk
          debug: true
