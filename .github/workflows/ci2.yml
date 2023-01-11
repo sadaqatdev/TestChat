@@ -7,4 +7,3 @@ jobs:
       - run: echo "🎉 The job was automatically triggered by a $ event."
       - run: echo "🐧 This job is now running on a  server hosted by GitHub!"
       - run: echo "🔎 The name of your branch is  and your repository is ."
-      - name: Check out repository code
